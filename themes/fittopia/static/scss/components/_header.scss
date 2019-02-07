@@ -1,0 +1,50 @@
+.header {
+  background-color: $success-color;
+  padding: 20px;
+  padding-left:30px;
+  font-family: Avenir;
+  font-size: 8.5px;
+
+  li {
+    padding-right: 10px;
+  }
+
+  &__logo {
+    float:left
+  }
+
+  &__nav {
+    height: 54px;
+    li {
+      list-style: none;
+      display:inline-block;
+    }
+  }
+h6{
+  padding-right:30px;
+  letter-spacing: 0.02em;
+}
+.button {
+  font-weight: bold;
+ font-family: Avenir !important;
+}
+
+  .hollow {
+    border: 2px solid #fefefe;
+    color: #fefefe;
+  }
+
+  &__signup {
+    background-color: #3b39da ;
+    width: 142px;
+    height: 54px;
+    padding: 20px 20px;
+  }
+
+  &__login {
+    width: 128px;
+    height: 54px;
+    padding: 20px 20px;
+
+  }
+}

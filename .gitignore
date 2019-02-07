@@ -1,0 +1,9 @@
+/silverstripe-cache/
+/.env
+/vendor/
+/themes/simple/
+/resources/
+/public/resources/
+/themes/fittopia/node_modules/
+/themes/fittopia/package.json/
+/themes/fittopia/package-lock.json/
