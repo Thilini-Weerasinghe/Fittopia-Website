@@ -4,8 +4,10 @@
     <list default="true" id="6511af13-9c67-45b6-b654-717c0eddf8c2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/fittopia/static/dist/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/fittopia/static/dist/app.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/fittopia/static/scss/_settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/fittopia/static/scss/_settings.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/fittopia/static/scss/components/elements/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/fittopia/static/scss/components/elements/_hero.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/fittopia/static/sourcemaps/app.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/themes/fittopia/static/sourcemaps/app.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/fittopia/templates/Includes/CriticalCSS.ss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/fittopia/templates/Includes/CriticalCSS.ss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/fittopia/templates/Layout/Page.ss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/fittopia/templates/Layout/Page.ss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,19 +23,21 @@
     <session id="1684698060">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.33" value="2" />
+          <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.62" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="editorconfig" value="1" />
           <entry key="env" value="2" />
-          <entry key="gitignore" value="1" />
+          <entry key="gitignore" value="2" />
           <entry key="json" value="3" />
           <entry key="scss" value="13" />
           <entry key="ss" value="11" />
@@ -44,7 +48,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="3" />
-          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="PLAIN_TEXT" value="6" />
           <entry key="SCSS" value="13" />
           <entry key="SilverStripe" value="11" />
           <entry key="YAML" value="1" />
@@ -55,8 +59,8 @@
           <entry key="env" value="9" />
           <entry key="gitignore" value="8" />
           <entry key="json" value="8" />
-          <entry key="scss" value="1346" />
-          <entry key="ss" value="1125" />
+          <entry key="scss" value="1863" />
+          <entry key="ss" value="1362" />
           <entry key="yml" value="8" />
         </counts>
       </usages-collector>
@@ -64,8 +68,8 @@
         <counts>
           <entry key="JSON" value="8" />
           <entry key="PLAIN_TEXT" value="17" />
-          <entry key="SCSS" value="1346" />
-          <entry key="SilverStripe" value="1125" />
+          <entry key="SCSS" value="1863" />
+          <entry key="SilverStripe" value="1362" />
           <entry key="YAML" value="8" />
         </counts>
       </usages-collector>
@@ -76,11 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/fittopia/templates/Layout/Page.ss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="51" column="47" lean-forward="true" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="542">
+              <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -97,8 +98,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/fittopia/static/scss/components/elements/_hero.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1334">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="360">
+              <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -106,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/fittopia/static/scss/_settings.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="77" column="20" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="20" />
+            <state relative-caret-position="258">
+              <caret line="160" column="32" lean-forward="true" selection-start-line="160" selection-start-column="32" selection-end-line="160" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -115,8 +116,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/fittopia/static/scss/components/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="31" selection-start-line="31" selection-end-line="36" />
+            <state relative-caret-position="-441">
+              <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -129,9 +130,13 @@
       <find>paragraph</find>
       <find>font</find>
       <find>header-font</find>
-      <find>header</find>
       <find>hollow</find>
       <find>button</find>
+      <find>rem</find>
+      <find>3rem</find>
+      <find>large</find>
+      <find>header</find>
+      <find>btn2</find>
     </findStrings>
     <replaceStrings>
       <replace>fittopia</replace>
@@ -150,15 +155,15 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/themes/fittopia/static/scss/components/shared/_fonts.scss" />
         <option value="$PROJECT_DIR$/themes/fittopia/templates/Page.ss" />
-        <option value="$PROJECT_DIR$/themes/fittopia/static/scss/_settings.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/themes/fittopia/static/scss/app.scss" />
         <option value="$PROJECT_DIR$/themes/fittopia/templates/Includes/Header.ss" />
         <option value="$PROJECT_DIR$/themes/fittopia/templates/Includes/MobileMenu.ss" />
         <option value="$PROJECT_DIR$/themes/fittopia/static/scss/components/_mobile-menu.scss" />
         <option value="$PROJECT_DIR$/themes/fittopia/static/scss/components/_header.scss" />
-        <option value="$PROJECT_DIR$/themes/fittopia/static/scss/components/elements/_hero.scss" />
+        <option value="$PROJECT_DIR$/themes/fittopia/static/scss/_settings.scss" />
         <option value="$PROJECT_DIR$/themes/fittopia/templates/Layout/Page.ss" />
+        <option value="$PROJECT_DIR$/themes/fittopia/static/scss/components/elements/_hero.scss" />
       </list>
     </option>
   </component>
@@ -250,7 +255,7 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
+    <option name="x" value="13" />
     <option name="y" value="23" />
     <option name="width" value="1907" />
     <option name="height" value="992" />
@@ -261,7 +266,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -392,6 +396,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -433,18 +438,21 @@
       <workItem from="1549517486610" duration="4150000" />
       <workItem from="1549526017358" duration="10090000" />
       <workItem from="1549595357515" duration="11899000" />
-      <workItem from="1549610268644" duration="8682000" />
+      <workItem from="1549610268644" duration="9099000" />
+      <workItem from="1549855275488" duration="583000" />
+      <workItem from="1549856746182" duration="271000" />
+      <workItem from="1549857977276" duration="10466000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34821000" />
+    <option name="totallyTimeSpent" value="46558000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1907" height="992" extended-state="0" />
+    <frame x="13" y="23" width="1907" height="992" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3297587" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3399464" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -457,7 +465,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.4211111" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.4211111" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -465,7 +473,7 @@
       <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2549575" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33297586" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -478,7 +486,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.4211111" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -531,13 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/fittopia/static/scss/components/shared/_fonts.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -573,17 +574,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/fittopia/static/scss/_settings.scss">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="77" column="20" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="20" />
+        <state relative-caret-position="120">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/fittopia/static/scss/components/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="31" selection-start-line="31" selection-end-line="36" />
+        <state relative-caret-position="-441">
+          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/fittopia/static/scss/_settings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="160" column="32" lean-forward="true" selection-start-line="160" selection-start-column="32" selection-end-line="160" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -596,18 +604,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/fittopia/templates/Layout/Page.ss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="51" column="47" lean-forward="true" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="542">
+          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/fittopia/static/scss/components/elements/_hero.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1334">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="360">
+          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
         </state>
       </provider>
     </entry>
