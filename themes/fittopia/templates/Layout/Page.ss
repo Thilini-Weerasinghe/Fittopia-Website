@@ -75,6 +75,9 @@
             <div class="cell small-12 medium-6 large-4 ">
                 <div class="test">
                     <img src="$resourceURL('themes/fittopia/static/images/cms/img1.jpg') ">
+                    <div class="text-block">
+                        <p>Training </p>
+                    </div>
                     <h4>Fit n Fast </h4>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -88,6 +91,9 @@
             <div class="cell small-12 medium-6 large-4 ">
                 <div class="test">
                     <img src="$resourceURL('themes/fittopia/static/images/cms/img2.jpg') ">
+                    <div class="text-block">
+                        <p>Training </p>
+                    </div>
                     <h4>Fit n Fast </h4>
                     <%--<ul>--%>
                         <%--<li>  <i class="fas fa-star"></i></li>--%>
@@ -105,6 +111,9 @@
             <div class="cell small-12 medium-6 large-4 ">
                 <div class="test">
                     <img src="$resourceURL('themes/fittopia/static/images/cms/img3.jpg') ">
+                    <div class="text-block">
+                        <p>Training </p>
+                    </div>
                     <h4>Fit n Fast </h4>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -117,6 +126,9 @@
             <div class="cell small-12 medium-6 large-4 ">
                 <div class="test">
                     <img src="$resourceURL('themes/fittopia/static/images/cms/img1.jpg') ">
+                    <div class="text-block">
+                        <p>Training </p>
+                    </div>
                     <h4>Fit n Fast </h4>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -129,6 +141,9 @@
             <div class="cell small-12 medium-6 large-4 ">
                 <div class="test">
                     <img src="$resourceURL('themes/fittopia/static/images/cms/img2.jpg') ">
+                    <div class="text-block">
+                        <p>Training </p>
+                    </div>
                     <h4>Fit n Fast </h4>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -141,6 +156,9 @@
             <div class="cell small-12 medium-6 large-4 ">
                 <div class="test">
                     <img src="$resourceURL('themes/fittopia/static/images/cms/img3.jpg') ">
+                    <div class="text-block">
+                        <p>Training </p>
+                    </div>
                     <h4>Fit n Fast </h4>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
