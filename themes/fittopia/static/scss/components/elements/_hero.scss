@@ -40,13 +40,13 @@
       background-color: transparent;
 
      .box1 {
-       //width: 300px;
-       min-width: 100%;
+       width: 300px;
+       max-width: 100%;
      }
 
       .box2 {
-        //width: 450px;
-        min-width: 100%;
+        width: 450px;
+        max-width: 100%;
       }
     }
   }
@@ -165,7 +165,7 @@
       padding: 0 80px;
     }
     &__right-content{
-      padding: 0 55px;
+      //padding: 0 55px;
     }
   }
 }

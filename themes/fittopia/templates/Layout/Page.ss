@@ -48,7 +48,7 @@
         </div>
         <div class="grid-x align-middle align-center cell small-12 medium-12 large-6 hero__right-content ">
             <div class="grid-x align-middle align-center ">
-                <div class="cell small-12  medium-10 medium-offset-1 large-10 large-offset-1">
+                <div class="cell small-12  medium-10 medium-offset-1 large-8 large-offset-2">
                     <%--<div class="hero__image lazy"--%>
                     <%--style="background-image: url('$resourceURL('themes/fittopia/static/images/hero.png')');"--%>
                     <%--data-src="$resourceURL('themes/fittopia/static/images/hero2.png')">--%>
@@ -60,6 +60,93 @@
                                 class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="gallery-block">
+    <div class="grid-container">
+        <div class="grid-x align-middle align-center">
+            <div class="cell small-12 medium-10 medium-offset-1 large-8 large-offset-2 ">
+               <h2> Popular places in your area </h2>
+                <p> Sub heading here</p>
+            </div>
+            <div class="cell small-12 medium-6 large-4 ">
+                <div class="test">
+                    <img src="$resourceURL('themes/fittopia/static/images/cms/img1.jpg') ">
+                    <h4>Fit n Fast </h4>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p>Level 1 Shop 8, 1-17 Elsie Street, Burwood, Burwood, 2134, NSW</p>
+                </div>
+
+            </div>
+            <div class="cell small-12 medium-6 large-4 ">
+                <div class="test">
+                    <img src="$resourceURL('themes/fittopia/static/images/cms/img2.jpg') ">
+                    <h4>Fit n Fast </h4>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p>Level 1 Shop 8, 1-17 Elsie Street, Burwood, Burwood, 2134, NSW</p>
+                </div>
+            </div>
+            <div class="cell small-12 medium-6 large-4 ">
+                <div class="test">
+                    <img src="$resourceURL('themes/fittopia/static/images/cms/img3.jpg') ">
+                    <h4>Fit n Fast </h4>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p>Level 1 Shop 8, 1-17 Elsie Street, Burwood, Burwood, 2134, NSW</p>
+                </div>
+            </div>
+            <div class="cell small-12 medium-6 large-4 ">
+                <div class="test">
+                    <img src="$resourceURL('themes/fittopia/static/images/cms/img1.jpg') ">
+                    <h4>Fit n Fast </h4>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p>Level 1 Shop 8, 1-17 Elsie Street, Burwood, Burwood, 2134, NSW</p>
+                </div>
+            </div>
+            <div class="cell small-12 medium-6 large-4 ">
+                <div class="test">
+                    <img src="$resourceURL('themes/fittopia/static/images/cms/img2.jpg') ">
+                    <h4>Fit n Fast </h4>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p>Level 1 Shop 8, 1-17 Elsie Street, Burwood, Burwood, 2134, NSW</p>
+                </div>
+            </div>
+            <div class="cell small-12 medium-6 large-4 ">
+                <div class="test">
+                    <img src="$resourceURL('themes/fittopia/static/images/cms/img3.jpg') ">
+                    <h4>Fit n Fast </h4>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p>Level 1 Shop 8, 1-17 Elsie Street, Burwood, Burwood, 2134, NSW</p>
+                </div>
+            </div>
+            <div class="grid-x align-center cell small-12 medium-12 large-12 ">
+                <a href="#" class="button gallery-block__see-more"> see more  <i class="fas fa-arrow-right"></i></a>
             </div>
         </div>
     </div>

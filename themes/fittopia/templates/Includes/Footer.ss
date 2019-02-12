@@ -2,28 +2,29 @@
     <div class="grid-container">
         <div class="grid-x align-center footer__content">
             <div class="cell small-12 medium-12 large-6">
-             <div class="grid-x">
-                 <div class="cell small-12 medium-6 large-6">
-<h4> Fittopia</h4>
-                     <ul class="link">
-                         <li> <a href="#"> About Us</a> </li>
-                         <li> <a href="#">FAQs</a> </li>
-                         <li><a href="#"> Terms</a> </li>
-                         <li> <a href="#"> Contact Us</a> </li>
-                         <li> <a href="#" class="hollow button footer__advertise"> Advertise with us  <i class="fas fa-arrow-right"></i></a> </li>
-                     </ul>
-                 </div>
-                 <div class="cell small-12 medium-6 large-6">
-<h4> Social</h4>
-                     <ul class="social">
-                         <li> <a href="#"><i class="fab fa-facebook-f"></i> </a> </li>
-                         <li> <a href="#"><i class="fab fa-instagram"></i></a> </li>
-                         <li> <a href="#"><i class="fab fa-twitter"></i> </a> </li>
-                         <li> <a href="#"><i class="fab fa-youtube"></i> </a> </li>
-                         <li> <a href="#"><i class="fas fa-podcast"></i> </a> </li>
-                     </ul>
-                 </div>
-             </div>
+                <div class="grid-x">
+                    <div class="cell small-12 medium-6 large-6">
+                        <h4> Fittopia</h4>
+                        <ul class="link">
+                            <li><a href="#"> About Us</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#"> Terms</a></li>
+                            <li><a href="#"> Contact Us</a></li>
+                            <li><a href="#" class="hollow button footer__advertise"> Advertise with us
+                                <i class="fas fa-arrow-right"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="cell small-12 medium-6 large-6">
+                        <h4> Social</h4>
+                        <ul class="social">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i> </a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i> </a></li>
+                            <li><a href="#"><i class="fab fa-youtube"></i> </a></li>
+                            <li><a href="#"><i class="fas fa-podcast"></i> </a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <div class="cell small-12 medium-12 large-6">
                 <h4> Wellness , meet inbox </h4>
@@ -43,10 +44,10 @@
         <div class="grid-container">
             <div class="grid-x copyright-text">
                 <div class="cell small-12 medium-6 large-6">
-                    <p> © 2017 Fittopia Pty Limited     |     Sitemap </p>
+                    <p> © 2017 Fittopia Pty Limited | Sitemap </p>
                 </div>
                 <div class="cell small-12 medium-6 large-6">
-                    <p class ="p1"> Website by Impulse Digital </p>
+                    <p class="p1"> Website by Impulse Digital </p>
                 </div>
             </div>
         </div>

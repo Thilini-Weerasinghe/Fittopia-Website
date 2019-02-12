@@ -28,7 +28,7 @@
 // @include foundation-breadcrumbs;
 // @include foundation-button-group;
 // @include foundation-callout;
-// @include foundation-card;
+@include foundation-card;
 // @include foundation-close-button;
 @include foundation-menu;
 @include foundation-menu-icon;
@@ -76,6 +76,7 @@
 @import "components/elements/block";
 @import "components/elements/front";
 @import "components/elements/hero";
+@import "components/elements/gallery";
 
 @import "components/footer";
 
