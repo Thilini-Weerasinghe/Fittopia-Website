@@ -70,7 +70,7 @@
         <div class="grid-x align-middle align-center">
             <div class="cell small-12 medium-10 medium-offset-1 large-8 large-offset-2 ">
                <h2> Popular places in your area </h2>
-                <p> Sub heading here</p>
+                <p class="p1"> Sub heading here</p>
             </div>
             <div class="cell small-12 medium-6 large-4 ">
                 <div class="test">
@@ -89,6 +89,11 @@
                 <div class="test">
                     <img src="$resourceURL('themes/fittopia/static/images/cms/img2.jpg') ">
                     <h4>Fit n Fast </h4>
+                    <%--<ul>--%>
+                        <%--<li>  <i class="fas fa-star"></i></li>--%>
+                        <%--<li>  <i class="fas fa-star"></i></li>--%>
+                        <%--<li>  <i class="fas fa-star"></i></li>--%>
+                    <%--</ul>--%>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -146,7 +151,7 @@
                 </div>
             </div>
             <div class="grid-x align-center cell small-12 medium-12 large-12 ">
-                <a href="#" class="button gallery-block__see-more"> see more  <i class="fas fa-arrow-right"></i></a>
+                <a href="#" class="button gallery-block__see-more"> See more </a>
             </div>
         </div>
     </div>
