@@ -1,0 +1,25 @@
+.instagram {
+
+  &__content {
+
+    .fa-instagram {
+      color: black;
+      font-size: 32px;
+      margin-right: 20px;
+    }
+
+    h2 {
+      color: black;
+    }
+
+    a {
+      color: #3bc9a1;
+      font-weight: bold;
+    }
+
+    .fa-arrow-right {
+      color: #3bc9a1;
+    }
+
+  }
+}

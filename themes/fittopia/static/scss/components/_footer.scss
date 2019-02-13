@@ -30,9 +30,8 @@
     color: $white;
     padding-top:15px;
     height: 45px;
-    width:205px;
+    width:70%;
     margin-top: 20px;
-    //min-width:100%;
   }
 
   &__content {
@@ -49,18 +48,19 @@
       padding: 0;
       margin: 0;
     }
-
-
   }
 
   &__subscribe-bar {
 
+    .hollow {
+      color:white;
+    }
     .email {
 
       background-color: transparent;
       height: 50px;
-      width:70%;
-      //min-width: 100%;
+      width:415px;
+      max-width: 70%;
   }
     .subscribe-button {
       background-color: $white;
@@ -75,12 +75,11 @@
 }
   &__copyright-bar {
     background-color:#3bc9a1 ;
-    text-align: center;
    // height: 65px;
     min-height: 100%;
 
     .copyright-text {
-      display: inline-flex;
+     // display: inline-flex;
 
     }
   }
@@ -88,10 +87,13 @@
 
     &__subscribe-bar {
 
-      .email {
-        width:90%;
-      }
-    }
+    //  .email {
+    //    width:90%;
+    //  }
+    //}
+    //.hollow{
+    //  width:80%;
+    //}
   }
 
 
@@ -109,7 +111,7 @@ h4{
   margin-bottom: 10px;
 }
       .email {
-       width:400px;
+       //width:400px;
         max-width: 100%;
       }
 
@@ -119,5 +121,16 @@ h4{
 
       }
     }
+
+    &__copyright-bar {
+
+      text-align: inherit;
+
+      .copyright-text {
+       // display: inherit;
+
+      }
+    }
   }
+}
 }

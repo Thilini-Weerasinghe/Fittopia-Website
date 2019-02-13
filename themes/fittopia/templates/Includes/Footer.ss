@@ -43,10 +43,10 @@
     <div class="footer__copyright-bar">
         <div class="grid-container">
             <div class="grid-x copyright-text">
-                <div class="cell small-12 medium-6 large-6">
+                <div class="grid-x align-left cell small-12 medium-6 large-6">
                     <p> © 2017 Fittopia Pty Limited | Sitemap </p>
                 </div>
-                <div class="cell small-12 medium-6 large-6">
+                <div class="grid-x align-right cell small-12 medium-6 large-6">
                     <p class="p1"> Website by Impulse Digital </p>
                 </div>
             </div>

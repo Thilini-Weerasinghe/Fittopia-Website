@@ -9,7 +9,7 @@
 <%--</div>--%>
 <%--</div>--%>
 
-<div class="hero">
+<div class=" block hero">
     <div class="grid-x hero__content">
         <div class="grid-x align-middle align-center cell small-12 medium-12 large-6 hero__left-content">
             <%--<div class="hero-slide">--%>
@@ -65,7 +65,7 @@
     </div>
 </div>
 
-<div class="gallery-block">
+<div class="block gallery">
     <div class="grid-container">
         <div class="grid-x align-middle align-center">
             <div class="cell small-12 medium-10 medium-offset-1 large-8 large-offset-2 ">
@@ -169,8 +169,42 @@
                 </div>
             </div>
             <div class="grid-x align-center cell small-12 medium-12 large-12 ">
-                <a href="#" class="button gallery-block__see-more"> See more </a>
+                <a href="#" class="button gallery__see-more"> See more </a>
             </div>
         </div>
     </div>
+</div>
+
+<div class="block instagram">
+    <div class="grid-container">
+        <div class="grid-x instagram__content">
+            <div class="grid-x align-left cell small-12 medium-8 large-8">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <h2>Join the conversation.</h2>
+            </div>
+            <div class="grid-x align-right cell small-12 medium-4 large-4">
+                <a href="#">Go to Instagram <i class="fas fa-arrow-right"></i> </a>
+            </div>
+        </div>
+    </div>
+        <div class="grid-x">
+            <div class="cell small-2 medium-2 large-2">
+                <img src="$resourceURL('themes/fittopia/static/images/cms/instagram/ins2.jpg') ">
+            </div>
+            <div class="cell small-2 medium-2 large-2">
+                <img src="$resourceURL('themes/fittopia/static/images/cms/instagram/ins1.jpg') ">
+            </div>
+            <div class="cell small-2 medium-2 large-2">
+                <img src="$resourceURL('themes/fittopia/static/images/cms/instagram/ins3.jpg') ">
+            </div>
+            <div class="cell small-2 medium-2 large-2">
+                <img src="$resourceURL('themes/fittopia/static/images/cms/instagram/ins4.jpg') ">
+            </div>
+            <div class="cell small-2 medium-2 large-2">
+                <img src="$resourceURL('themes/fittopia/static/images/cms/instagram/ins5.jpg') ">
+            </div>
+            <div class="cell small-2 medium-2 large-2">
+                <img src="$resourceURL('themes/fittopia/static/images/cms/instagram/ins6.jpg') ">
+            </div>
+        </div>
 </div>
