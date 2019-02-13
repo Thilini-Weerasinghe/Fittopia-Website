@@ -25,10 +25,10 @@
                     <h4> Search below to see what’s near you.</h4>
                 </div>
                 <div class="columns small-12 medium-6 large-6">
-                    <input type="text" class="text-box box1" placeholder="Alexandria, NSW | ">
+                    <input type="text" class="textbox box1" placeholder="Alexandria, NSW | ">
                 </div>
                 <div class="columns small-12 medium-6 large-6">
-                    <div class="hero__dropdown">
+                    <div class="dropdown">
                         <select>
                             <option value="" selected disabled hidden>Category</option>
                             <option value="saab">abc</option>
@@ -38,11 +38,11 @@
                     </div>
                 </div>
                 <div class="columns small-12 medium-9 large-9">
-                    <input type="text" class="text-box box2 " placeholder="Type search term here... "> <i
+                    <input type="text" class="textbox box2 " placeholder="Type search term here... "> <i
                         class="fas fa-search"></i> </input>
                 </div>
                 <div class="columns small-12 medium-3 large-3">
-                    <a href="#" class="button hero__search">search <i class="fas fa-arrow-right"></i></a>
+                    <a href="#" class="button hero__search">search <i class="fas fa-long-arrow-alt-right"></i></a>
                 </div>
             </div>
         </div>
@@ -57,7 +57,7 @@
                         <h4> Trending. </h4>
                         <h3> Trending piece of content or paid advertising spot. </h3>
                         <a href="#" class="hollow button header__login"> Learn More <i
-                                class="fas fa-arrow-right"></i></a>
+                                class="fas fa-long-arrow-alt-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -95,11 +95,6 @@
                         <p>Training </p>
                     </div>
                     <h4>Fit n Fast </h4>
-                    <%--<ul>--%>
-                        <%--<li>  <i class="fas fa-star"></i></li>--%>
-                        <%--<li>  <i class="fas fa-star"></i></li>--%>
-                        <%--<li>  <i class="fas fa-star"></i></li>--%>
-                    <%--</ul>--%>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -169,7 +164,34 @@
                 </div>
             </div>
             <div class="grid-x align-center cell small-12 medium-12 large-12 ">
-                <a href="#" class="button gallery__see-more"> See more </a>
+                <a href="#" class="button see-more"> See more </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="block article">
+    <div class="grid-container">
+        <div class="grid-x">
+            <div class="cell small-12 medium-4 large-4">
+                <img src="$resourceURL('themes/fittopia/static/images/cms/img1.jpg') ">
+                <h4>Article title here article title
+                    here article title goes here</h4>
+                <p> Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="cell small-12 medium-4 large-4">
+                <img src="$resourceURL('themes/fittopia/static/images/cms/img2.jpg') ">
+                <h4>Article title here</h4>
+                <p> Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="cell small-12 medium-4 large-4">
+                <img src="$resourceURL('themes/fittopia/static/images/cms/img3.jpg') ">
+                <h4>Article title here article title
+                    here article title goes here</h4>
+                <p> Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="grid-x align-center cell small-12 medium-12 large-12 ">
+                <a href="#" class="button see-more"> See more </a>
             </div>
         </div>
     </div>
@@ -183,7 +205,7 @@
                 <h2>Join the conversation.</h2>
             </div>
             <div class="grid-x align-right cell small-12 medium-4 large-4">
-                <a href="#">Go to Instagram <i class="fas fa-arrow-right"></i> </a>
+                <a href="#">Go to Instagram <i class="fas fa-long-arrow-alt-right"></i> </a>
             </div>
         </div>
     </div>

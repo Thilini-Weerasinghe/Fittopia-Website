@@ -17,12 +17,12 @@
         </li>
         <li class="mobile-menu__list-main">
             <%--//<a href="#" class="mobile-menu__list-main__link">link 4</a>--%>
-            <a href="#" class="hollow button mobile-menu__login"> Login <i class="fas fa-arrow-right"></i></a>
+            <a href="#" class="hollow button mobile-menu__login"> Login <i class="fas fa-long-arrow-alt-right"></i></a>
         </li>
 
         <li class="mobile-menu__list-main">
             <%--//<a href="#" class="mobile-menu__list-main__link">link 4</a>--%>
-            <a href="#" class="button mobile-menu__signup">signup <i class="fas fa-arrow-right"></i></a> </li>
+            <a href="#" class="button mobile-menu__signup">signup <i class="fas fa-long-arrow-alt-right"></i></a> </li>
         </li>
     </ul>
 </div>
