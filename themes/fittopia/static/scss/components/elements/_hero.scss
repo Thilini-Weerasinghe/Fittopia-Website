@@ -19,17 +19,17 @@
 
       h4 {
       margin-top:20px;
-        letter-spacing: -0.02em;
+        letter-spacing: 0.02em;
       }
       }
 
     .box1 {
-      width: 300px;
+      //width: 300px;
       max-width: 100%;
     }
 
     .box2 {
-      width: 450px;
+     // width: 450px;
       max-width: 100%;
     }
 
@@ -50,7 +50,7 @@
       height: 0;
       transform: rotate(-90deg);
       color:#3bc9a1 ;
-      position:absolute;
+      //position:absolute;
     }
 
     .hollow {

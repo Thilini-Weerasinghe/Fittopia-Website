@@ -1,11 +1,11 @@
 .instagram {
-
+text-align:center;
   &__content {
-
+padding: 0;
     .fa-instagram {
       color: black;
-      font-size: 32px;
-      margin-right: 20px;
+      font-size: 20px;
+      margin-right:5px;
     }
 
     h2 {
@@ -15,11 +15,46 @@
     a {
       color: #3bc9a1;
       font-weight: bold;
+      font-size: 15px;
     }
 
     .fa-long-arrow-alt-right {
       color: #3bc9a1;
     }
+.logo{
+  text-align: center;
+}
+    .link{
+      text-align: center;
+    }
+  }
 
+  @include breakpoint(medium) {
+
+    .fa-instagram {
+      font-size: 25px;
+    }
+
+    h2{
+      font-size: 30px;
+    }
+  }
+
+  @include breakpoint(large){
+    .logo {
+      text-align: left;
+    }
+
+    .link {
+      text-align: right;
+    }
+
+    h2{
+      font-size: 40px;
+    }
+    .fa-instagram {
+      font-size: 32px;
+      margin-right: 20px;
+    }
   }
 }

@@ -65,15 +65,52 @@
     </div>
 </div>
 
+<div class="block article">
+    <div class="grid-container">
+        <div class="grid-x">
+            <div class="cell small-12 medium-12 large-12 ">
+                <h2> Have you tried? </h2>
+                <p class="p1">Featured articles </p>
+            </div>
+            <div class="cell small-12 medium-4 large-4">
+                <div class="category">
+                    <img src="$resourceURL('themes/fittopia/static/images/cms/article/art4.jpg') ">
+                    <h5>Article title here article title
+                        here article title goes here</h5>
+                    <p> Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            <div class="cell small-12 medium-4 large-4">
+                <div class="category">
+                    <img src="$resourceURL('themes/fittopia/static/images/cms/article/art2.jpg') ">
+                    <h5>Article title here</h5>
+                    <p> Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            <div class="cell small-12 medium-4 large-4">
+                <div class="category">
+                    <img src="$resourceURL('themes/fittopia/static/images/cms/article/art3.jpg') ">
+                    <h5>Article title here article title
+                        here article title goes here</h5>
+                    <p> Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            <div class="grid-x align-center cell small-12 medium-12 large-12 ">
+                <a href="#" class="button see-more"> See more </a>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="block gallery">
     <div class="grid-container">
         <div class="grid-x align-middle align-center">
-            <div class="cell small-12 medium-10 medium-offset-1 large-8 large-offset-2 ">
+            <div class="cell small-12 medium-12 large-12 ">
                <h2> Popular places in your area </h2>
                 <p class="p1"> Sub heading here</p>
             </div>
             <div class="cell small-12 medium-6 large-4 ">
-                <div class="test">
+                <div class="picture">
                     <img src="$resourceURL('themes/fittopia/static/images/cms/img1.jpg') ">
                     <div class="text-block">
                         <p>Training </p>
@@ -89,7 +126,7 @@
 
             </div>
             <div class="cell small-12 medium-6 large-4 ">
-                <div class="test">
+                <div class="picture">
                     <img src="$resourceURL('themes/fittopia/static/images/cms/img2.jpg') ">
                     <div class="text-block">
                         <p>Training </p>
@@ -104,7 +141,7 @@
                 </div>
             </div>
             <div class="cell small-12 medium-6 large-4 ">
-                <div class="test">
+                <div class="picture">
                     <img src="$resourceURL('themes/fittopia/static/images/cms/img3.jpg') ">
                     <div class="text-block">
                         <p>Training </p>
@@ -119,7 +156,7 @@
                 </div>
             </div>
             <div class="cell small-12 medium-6 large-4 ">
-                <div class="test">
+                <div class="picture">
                     <img src="$resourceURL('themes/fittopia/static/images/cms/img1.jpg') ">
                     <div class="text-block">
                         <p>Training </p>
@@ -134,7 +171,7 @@
                 </div>
             </div>
             <div class="cell small-12 medium-6 large-4 ">
-                <div class="test">
+                <div class="picture">
                     <img src="$resourceURL('themes/fittopia/static/images/cms/img2.jpg') ">
                     <div class="text-block">
                         <p>Training </p>
@@ -149,7 +186,7 @@
                 </div>
             </div>
             <div class="cell small-12 medium-6 large-4 ">
-                <div class="test">
+                <div class="picture">
                     <img src="$resourceURL('themes/fittopia/static/images/cms/img3.jpg') ">
                     <div class="text-block">
                         <p>Training </p>
@@ -173,22 +210,32 @@
 <div class="block article">
     <div class="grid-container">
         <div class="grid-x">
-            <div class="cell small-12 medium-4 large-4">
-                <img src="$resourceURL('themes/fittopia/static/images/cms/img1.jpg') ">
-                <h4>Article title here article title
-                    here article title goes here</h4>
-                <p> Lorem ipsum dolor sit amet.</p>
+            <div class="cell small-12 medium-12 large-12 ">
+                <h2> The Latest </h2>
+                <p class="p1"> Stay on top of it </p>
             </div>
             <div class="cell small-12 medium-4 large-4">
-                <img src="$resourceURL('themes/fittopia/static/images/cms/img2.jpg') ">
-                <h4>Article title here</h4>
-                <p> Lorem ipsum dolor sit amet.</p>
+                <div class="category">
+                    <img src="$resourceURL('themes/fittopia/static/images/cms/article/art4.jpg') ">
+                    <h5>Article title here article title
+                        here article title goes here</h5>
+                    <p> Lorem ipsum dolor sit amet.</p>
+                </div>
             </div>
             <div class="cell small-12 medium-4 large-4">
-                <img src="$resourceURL('themes/fittopia/static/images/cms/img3.jpg') ">
-                <h4>Article title here article title
-                    here article title goes here</h4>
-                <p> Lorem ipsum dolor sit amet.</p>
+                <div class="category">
+                    <img src="$resourceURL('themes/fittopia/static/images/cms/article/art5.jpg') ">
+                    <h5>Article title here</h5>
+                    <p> Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            <div class="cell small-12 medium-4 large-4">
+                <div class="category">
+                    <img src="$resourceURL('themes/fittopia/static/images/cms/article/art6.jpg') ">
+                    <h5>Article title here article title
+                        here article title goes here</h5>
+                    <p> Lorem ipsum dolor sit amet.</p>
+                </div>
             </div>
             <div class="grid-x align-center cell small-12 medium-12 large-12 ">
                 <a href="#" class="button see-more"> See more </a>
@@ -201,11 +248,15 @@
     <div class="grid-container">
         <div class="grid-x instagram__content">
             <div class="grid-x align-left cell small-12 medium-8 large-8">
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <h2>Join the conversation.</h2>
+                <div class="grid-x logo">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <h2>Join the conversation.</h2>
+                </div>
             </div>
             <div class="grid-x align-right cell small-12 medium-4 large-4">
-                <a href="#">Go to Instagram <i class="fas fa-long-arrow-alt-right"></i> </a>
+                <div class="grid-x align-right link">
+                    <a href="#">Go to Instagram <i class="fas fa-long-arrow-alt-right"></i> </a>
+                </div>
             </div>
         </div>
     </div>

@@ -70,14 +70,13 @@
   @include breakpoint(medium) {
 
     text-align: left;
-
     p {
-      text-align: left;
       margin-top: 8px;
       font-size: inherit;
+      text-align: left;
     }
 
-    .test {
+    .picture {
       padding: 15px 20px;
       position: relative;
     }
@@ -88,9 +87,5 @@
     h2 {
       padding-left: 37px;
     }
-
-    //&__see-more {
-    //  margin-bottom: 60px;
-    //}
   }
 }
