@@ -13,6 +13,7 @@
   }
 
   h2 {
+    text-align: center;
     color: #000;
     margin: 0;
   }
@@ -21,6 +22,11 @@
     text-align: center;
     font-size: 12px;
     margin: 0;
+  }
+
+  .picture {
+    padding: 15px 20px;
+    position: relative;
   }
 
   .fa-star {
@@ -74,11 +80,6 @@
       margin-top: 8px;
       font-size: inherit;
       text-align: left;
-    }
-
-    .picture {
-      padding: 15px 20px;
-      position: relative;
     }
   }
 
