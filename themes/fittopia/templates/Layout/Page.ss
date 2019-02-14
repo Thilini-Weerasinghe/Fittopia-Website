@@ -44,18 +44,17 @@
         <div class="grid-x align-middle align-center cell small-12 medium-12 large-6 hero__right-content ">
             <div class="grid-x align-middle align-center ">
                 <div class="cell small-12  medium-10 medium-offset-1 large-8 large-offset-2">
-                    <div class="hero-slide">
-                        <div class="hero-slide-image lazy"
-                             style="background-image: url('$resourceURL('themes/fittopia/static/images/newhero.png')');"
-                             data-src="$resourceURL('themes/fittopia/static/images/hero.png')">
-                        </div>
+                    <div class="hero__image lazy"
+                         style="background-image: url('$resourceURL('themes/fittopia/static/images/herof.png')');"
+                         data-src="$resourceURL('themes/fittopia/static/images/herof.png')">
+                    </div>
                     <div class="content-right">
                         <h4> Trending. </h4>
                         <h3> Trending piece of content or paid advertising spot. </h3>
                         <a href="#" class="hollow button header__login"> Learn More <i
                                 class="fas fa-long-arrow-alt-right"></i></a>
                     </div>
-                </div>
+                <%--</div>--%>
             </div>
         </div>
     </div>
@@ -314,3 +313,4 @@
         </div>
     </div>
 </div>
+
