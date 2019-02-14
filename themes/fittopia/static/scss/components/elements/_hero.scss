@@ -50,7 +50,7 @@
       height: 0;
       transform: rotate(-90deg);
       color:#3bc9a1 ;
-      //position:absolute;
+      position:relative;
     }
 
     .hollow {
@@ -81,76 +81,59 @@
     }
   }
 
+    .hero-slide {
+      position: relative;
 
-  //&__dropdown {
-  //  background-color: transparent;
-  //  cursor: pointer;
-  //  font-size: 15px;
-  //  color: white;
-  //  border-radius: 5px;
-  //  height:50px;
-  //
-  //  select {
-  //    background-color: transparent;
-  //    color: $white;
-  //    height:50px;
-  //    min-width: 100%;
-  //  }
+      z-index: 1!important;
+      overflow: hidden;
 
-  //
-  //  .hero-slide {
-  //    position: relative;
-  //
-  //    z-index: 1!important;
-  //    overflow: hidden;
-  //
-  //
-  //
-  //    &__image {
-  //      position: absolute;
-  //      left: 0;
-  //      top: 0;
-  //      width: 100%;
-  //      height: 100%;
-  //      background-size: cover;
-  //      background-repeat: no-repeat;
-  //      background-position: center;
-  //      z-index: 0;
-  //      @include bg-image;
-  //    }
-  //
-  //  .slick-track,
-  //  .hero-slide {
-  //    min-height: 600px;
-  //  }
-  //
-  //  .slick-slide {
-  //    position: relative;
-  //
-  //    //&:before {
-  //    //  position: absolute;
-  //    //  left: 0;
-  //    //  top: 0;
-  //    //  width: 100%;
-  //    //  height: 100%;
-  //    //  background: rgba(255,255,255,.6);
-  //    //  z-index: 9;
-  //    //  content: ' ';
-  //    //}
-  //  }
-  //
-  //  .slick-active {
-  //    &:before {
-  //      display: none;
-  //    }
-  //  }
-  //
-  //  &__arrows {
-  //    position: absolute;
-  //    bottom: 0;
-  //    width: 100%;
-  //    height: 34px;
-  //  }
-  //}
+
+
+      &__image {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index: 0;
+        @include bg-image;
+      }
+
+    .slick-track,
+    .hero-slide {
+      min-height: 600px;
+    }
+
+    .slick-slide {
+      position: relative;
+
+      //&:before {
+      //  position: absolute;
+      //  left: 0;
+      //  top: 0;
+      //  width: 100%;
+      //  height: 100%;
+      //  background: rgba(255,255,255,.6);
+      //  z-index: 9;
+      //  content: ' ';
+      //}
+    }
+
+    .slick-active {
+      &:before {
+        display: none;
+      }
+    }
+
+    &__arrows {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 34px;
+    }
+  }
 }
 

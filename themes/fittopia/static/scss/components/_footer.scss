@@ -8,6 +8,10 @@
     color: #3bc9a1;
 
   }
+
+  p {
+    color:$white;
+  }
   li {
     list-style: none;
     cursor: pointer;
@@ -61,6 +65,10 @@
   &__copyright-bar {
     background-color: #3bc9a1;
     min-height: 100%;
+
+    p {
+      color:inherit;
+    }
   }
 
   @include breakpoint(large) {

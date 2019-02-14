@@ -5,6 +5,7 @@
   height: auto;
   overflow: hidden;
   z-index: 1;
+  margin-bottom: 30px;
 
   &__text {
     background-color:#3bc9a1 ;
@@ -49,6 +50,7 @@
   }
 
   @include breakpoint(large){
+    margin-bottom : 60px;
     h2{
       font-size: 45px;
     }
@@ -58,68 +60,3 @@
     }
   }
 }
-//
-//.image-card {
-//
-//  &__image {
-//    position: relative;
-//    overflow: hidden;
-//
-//    &:before {
-//      content: '';
-//      position: relative;
-//      display: block;
-//      width: 100%;
-//      padding-top: 76.67%;
-//    }
-//
-//    .image {
-//      position: absolute;
-//      top: 0;
-//      left: 0;
-//      width: 100%;
-//      height: 100%;
-//      @include bg-image;
-//      @include transition-image;
-//    }
-//  }
-//
-//  //&__content {
-//  //  background: $card-bg;
-//  //  padding: 20px 30px;
-//  //  color: $light-black;
-//  //
-//  //  .name {
-//  //
-//  //    em {
-//  //      font-weight: bold;
-//  //      font-style: normal;
-//  //      color: $black;
-//  //    }
-//  //  }
-//  //}
-//
-//  //&:hover {
-//  //
-//  //  .image-card__image {
-//  //
-//  //    .image {
-//  //      @extend .zoom;
-//  //    }
-//  //  }
-//  //}
-//
-//  @include breakpoint(large) {
-//
-//    &__content {
-//
-//      p {
-//        font-size: 22px;
-//      }
-//
-//      .name {
-//        font-size: 20px;
-//      }
-//    }
-//  }
-//}
