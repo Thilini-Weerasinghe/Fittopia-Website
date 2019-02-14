@@ -4,7 +4,9 @@
   background-color: $white;
   color: black;
   max-width: 100%;
-  padding-top: 15px;
+  padding: 15px 15px;
+  font-size: 16px;
+  border-radius: 5px;
 
   &.see-more {
 
@@ -18,9 +20,15 @@
       font-weight: bold;
       margin-top: 30px;
       margin-right: 15px;
-      border-radius: 5px;
-      font-size: 16px;
+      //border-radius: 5px;
 
+  }
+
+  &.read-more {
+    width:134px;
+    height:50px;
+    max-width:100%;
+    margin-top: 25px;
   }
 
   &.hollow {
