@@ -13,7 +13,7 @@
             <ul>
                 <li> <a href="http://fittopia.site/main-page"> <h6>Find a Place</h6></a> </li>
                 <li> <a href="{$BaseHref}mainpage-2"> <h6>List a Place </h6></a></li>
-                <li> <a href="#"> <h6>FitNews</h6></a> </li>
+                <li> <a href="{$BaseHref}newspage"> <h6>FitNews</h6></a> </li>
                 <li> <a href="#" class="hollow button header__login"> Login <i class="fas fa-long-arrow-alt-right"></i></a> </li>
                 <li> <a href="#" class="button signup">signup <i class="fas fa-long-arrow-alt-right"></i></a> </li>
             </ul>
