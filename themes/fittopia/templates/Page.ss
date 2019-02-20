@@ -21,6 +21,7 @@
 
 
             $Layout
+            <% include Instagram %>
             <% include Footer %>
 
 
