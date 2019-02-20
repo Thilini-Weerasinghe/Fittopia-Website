@@ -32,11 +32,11 @@
                         </select>
                     </div>
                 </div>
-                <div class="columns small-12 medium-9 large-9">
+                <div class="columns small-12 medium-8 large-8">
                     <input type="text" class="textbox box2 " placeholder="Type search term here... "> <i
                         class="fas fa-search"></i> </input>
                 </div>
-                <div class="columns small-12 medium-3 large-3">
+                <div class="columns small-12 medium-4 large-4">
                     <a href="#" class="button hero__search">search <i class="fas fa-long-arrow-alt-right"></i></a>
                 </div>
             </div>
@@ -48,17 +48,18 @@
                          style="background-image: url('$resourceURL('themes/fittopia/static/images/herof.png')');"
                          data-src="$resourceURL('themes/fittopia/static/images/herof.png')">
                     </div>
-                    <div class="content-right">
+                </div>
+                <div class="grid-x  content-right">
+                    <div class="verticle-text">
                         <h4> Trending. </h4>
-                        <h3> Trending piece of content or paid advertising spot. </h3>
-                        <a href="#" class="hollow button header__login"> Learn More <i
-                                class="fas fa-long-arrow-alt-right"></i></a>
                     </div>
-                <%--</div>--%>
+                    <h3> Trending piece of content or paid advertising spot. </h3>
+                    <a href="#" class="hollow button header__login"> Learn More <i
+                            class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
             </div>
         </div>
     </div>
-</div>
 </div>
 
 <div class="block gallery">
@@ -177,7 +178,8 @@
                 </div>
             </div>
             <div class="cell small-12 medium-12 large-6 image-card__image">
-                <div class="image lazy b-loaded" style="background-image: url('$resourceURL('themes/fittopia/static/images/bg3.png')');">
+                <div class="image lazy b-loaded"
+                     style="background-image: url('$resourceURL('themes/fittopia/static/images/bg3.png')');">
                 </div>
             </div>
         </div>
@@ -225,7 +227,8 @@
     <div class="grid-container">
         <div class="grid-x align-middle ">
             <div class="cell small-12 medium-12 large-6 image-card__image">
-                <div class="image lazy b-loaded" style="background-image: url('$resourceURL('themes/fittopia/static/images/bg1.png')');">
+                <div class="image lazy b-loaded"
+                     style="background-image: url('$resourceURL('themes/fittopia/static/images/bg1.png')');">
                 </div>
             </div>
             <div class="grid-x align-middle align-center cell small-12 medium-12 large-6 image-card__text">
@@ -294,7 +297,7 @@
     </div>
     <div class=" grid-x">
         <div class="cell small-6 medium-4 large-2 instagram__image">
-                <img src="$resourceURL('themes/fittopia/static/images/cms/instagram/ins2.jpg') ">
+            <img src="$resourceURL('themes/fittopia/static/images/cms/instagram/ins2.jpg') ">
         </div>
         <div class="cell small-6 medium-4 large-2 instagram__image">
             <img src="$resourceURL('themes/fittopia/static/images/cms/instagram/ins1.jpg') ">

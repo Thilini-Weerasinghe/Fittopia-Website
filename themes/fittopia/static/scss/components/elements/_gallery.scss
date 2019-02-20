@@ -27,6 +27,8 @@
   .picture {
     padding: 15px 20px;
     position: relative;
+    width: 408px;
+    max-width:100%;
   }
 
   .fa-star {
@@ -57,21 +59,6 @@
 
     }
   }
-
-  //&__see-more {
-  //  background-color: #3b39da;
-  //  width: 142px;
-  //  max-width: 100%;
-  //  height: 54px;
-  //  padding: 20px;
-  //  margin-bottom: 30px;
-  //  font-weight: bold;
-  //  margin-top: 30px;
-  //  margin-right: 15px;
-  //  border-radius: 5px;
-  //  font-size: 16px;
-  //
-  //}
 
   @include breakpoint(medium) {
 

@@ -43,8 +43,18 @@
     }
   }
 
+  &.signup {
+    background-color: #3b39da;
+    width: 142px;
+    height: 54px;
+    padding: 20px 20px;
+    color: white !important;
+
+  }
+
   @include breakpoint(large){
-    &.see-more{
+
+    &.see-more {
       margin-bottom: 60px;
     }
 

@@ -30,10 +30,10 @@
                 <h4> Wellness , meet inbox </h4>
                 <p> Sign up to our newsletter to join us on the path to wellness </p>
                 <div class="grid-x footer__subscribe-bar">
-                    <div class="cell small-12 medium-9 large-9 ">
+                    <div class="cell small-12 medium-7 large-9 ">
                         <input type="text" class="textbox email  " placeholder="Enter email address..">
                     </div>
-                    <div class="cell small-12 medium-3 large-3 ">
+                    <div class="cell small-12 medium-5 large-3 ">
                         <a href="#" class="button subscribe-button"> Subscribe <i class="fas fa-long-arrow-alt-right"></i></a>
                     </div>
                 </div>
@@ -43,10 +43,10 @@
     <div class="footer__copyright-bar">
         <div class="grid-container">
             <div class="grid-x copyright-text">
-                <div class="grid-x align-left cell small-12 medium-6 large-6">
+                <div class="cell small-12 medium-6 large-6 left-content">
                     <p> © 2017 Fittopia Pty Limited | Sitemap </p>
                 </div>
-                <div class="grid-x align-right cell small-12 medium-6 large-6">
+                <div class="cell small-12 medium-6 large-6 right-content">
                     <p class="p1"> Website by Impulse Digital </p>
                 </div>
             </div>

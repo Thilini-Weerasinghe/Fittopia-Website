@@ -30,13 +30,6 @@
     color: #fefefe;
   }
 
-  &__signup {
-    background-color: #3b39da;
-    width: 142px;
-    height: 54px;
-    padding: 20px 20px;
-  }
-
   &__login {
     width: 128px;
     height: 54px;
@@ -83,6 +76,27 @@
         list-style: none;
         display: inline-block;
       }
+    }
+  }
+
+  &.subheader {
+
+    position: relative;
+    a:hover {
+      color: #3bc9a1;
+    }
+    a:focus {
+      color: #3bc9a1;
+    }
+
+    a {
+      color:$black;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .hollow {
+      border-color: $black;
     }
   }
 }
