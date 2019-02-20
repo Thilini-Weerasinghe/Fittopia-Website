@@ -16,7 +16,7 @@
     float: left
   }
 
-  &__menu {
+  &.menu {
     display: none;
   }
 
@@ -36,7 +36,7 @@
     padding: 20px 20px;
 
   }
-  &__hamburger {
+  &.hamburger {
     width: 25px;
     height: 18px;
     display: block;
@@ -64,13 +64,14 @@
 
   @include breakpoint(large) {
 
-    &__hamburger {
+   &.hamburger {
       display: none;
     }
 
-    &__menu {
-      display: block;
+    &.menu {
+      display: contents;
       height: 54px;
+      float: right;
 
       li {
         list-style: none;
@@ -98,5 +99,12 @@
     .hollow {
       border-color: $black;
     }
+  }
+
+  .line{
+    background: $black;
+  }
+  hr{
+    margin-bottom: 0px;
   }
 }

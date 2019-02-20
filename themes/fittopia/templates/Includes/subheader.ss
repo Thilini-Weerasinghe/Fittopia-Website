@@ -4,12 +4,12 @@
             <a href="#">
                 <img src="{$ThemeDir}/static/images/logo2.jpg"></a>
         </div>
-        <a class="header__hamburger" data-toggle="mobileMenu">
+        <a class="header hamburger" data-toggle="mobileMenu">
             <span class="line line-1"></span>
             <span class="line line-2"></span>
             <span class="line line-3"></span>
         </a>
-        <div class="header__menu">
+        <div class="header menu">
             <ul>
                 <li> <a href="http://fittopia.site/main-page"> Find a Place</a> </li>
                 <li> <a href="{$BaseHref}mainpage-2"> List a Place </a></li>

@@ -6,7 +6,7 @@
     </div>
 
     <div class="nav-bar">
-        <div class="grid-x align-center nav-bar__content">
+        <div class="grid-x align-center align-middle  nav-bar__content">
             <div class="grid-container">
                 <ul>
                     <li> <a href="#">  Fit </a></li>
