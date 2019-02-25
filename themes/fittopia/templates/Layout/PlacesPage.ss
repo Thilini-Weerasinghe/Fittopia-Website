@@ -9,10 +9,10 @@
                 <div class="cell small-12 medium-12 large-12">
                     <h4> Search below to see what’s near you.</h4>
                 </div>
-                <div class="cell small-12 medium-12 large-4">
+                <div class="cell small-12 medium-4 large-4">
                     <input type="text" class="textbox box1" placeholder="Alexandria, NSW | ">
                 </div>
-                <div class="cell small-12 medium-12 large-4">
+                <div class="cell small-12 medium-4 large-4">
                     <div class="dropdown">
                         <select>
                             <option value="" selected disabled hidden>Category name</option>
@@ -22,7 +22,7 @@
                         </select>
                     </div>
                 </div>
-                <div class="cell small-12 medium-12 large-4">
+                <div class="cell small-12 medium-4 large-4">
                     <div class="dropdown">
                         <select>
                             <option value="" selected disabled hidden> Sub Category name</option>
@@ -32,7 +32,7 @@
                         </select>
                     </div>
                 </div>
-                <div class="cell small-12 medium-12 large-6">
+                <div class="cell small-12 medium-6 large-6">
                     <div class="dropdown">
                         <select>
                             <option value="" selected disabled hidden>Reviews</option>
@@ -42,7 +42,7 @@
                         </select>
                     </div>
                 </div>
-                <div class="cell small-12 medium-12 large-6">
+                <div class="cell small-12 medium-6 large-6">
                     <div class="dropdown">
                         <select>
                             <option value="" selected disabled hidden>Opening Hours</option>
@@ -52,11 +52,10 @@
                         </select>
                     </div>
                 </div>
-                <div class="cell small-12 medium-12 large-8">
-                    <input type="text" class="textbox box2 " placeholder="Type search term here... "> <i
-                        class="fas fa-search"></i> </input>
+                <div class="cell small-12 medium-8 large-8">
+                    <input type="text" class="textbox box2 " placeholder="Type search term here... ">
                 </div>
-                <div class="cell small-12 medium-12 large-4">
+                <div class="cell small-12 medium-4 large-4">
                     <a href="#" class="button hero__search">search <i class="fas fa-long-arrow-alt-right"></i></a>
                 </div>
             </div>
@@ -255,3 +254,19 @@
         </div>
     </div>
 </div>
+
+<div class="pagination block ">
+    <div class="grid-x align-right">
+        <ul class="pagination pagination-rectangular" role="navigation" aria-label="Pagination">
+            <li class="disabled"><i class="fas fa-angle-left"></i> <span class="show-for-sr">Previous page</span></li>
+            <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+            <li><a href="#" aria-label="Page 2">2</a></li>
+            <li><a href="#" aria-label="Page 3">Next</a></li>
+            <%--<li><a href="#" aria-label="Page 4">4</a></li>--%>
+            <%--<li><a href="#" aria-label="Page 5">5</a></li>--%>
+            <li><a href="#" aria-label="Next page"><i class="fas fa-angle-right"></i> <span class="show-for-sr">Next page</span></a></li>
+        </ul>
+
+    </div>
+</div>
+

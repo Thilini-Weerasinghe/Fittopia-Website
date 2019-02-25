@@ -1,3 +1,45 @@
 .search {
   background-color: #3bc9a1;
+  height:400px;
 }
+
+.pagination {
+
+  $pagination-rectangular-size: 18px; // controls font and circle size
+  $pagination-rectangular-color: $primary-color;
+  $pagination-rectangular-disabled-color: $medium-gray;
+  $pagination-rectangular-border-thickness: 0px;
+
+
+  .pagination-rectangular li.current {
+    //border: $pagination-rectangular-border-thickness solid $pagination-rectangular-color;
+    //border-radius: 5000px;
+    padding: 0.285em 0.8em;
+    font-size: $pagination-rectangular-size;
+  }
+
+  .pagination-rectangular li.disabled {
+    //border: $pagination-rectangular-border-thickness solid $pagination-rectangular-disabled-color;
+    padding: 0.285em 0.8em;
+    //border-radius: 5000px;
+    font-size: $pagination-rectangular-size;
+  }
+
+  .pagination-rectangular a {
+    //border-radius: 5000px;
+    padding: 0.285em 0.8em;
+    border: $pagination-rectangular-border-thickness solid $pagination-rectangular-color;
+    font-size: $pagination-rectangular-size;
+  }
+
+  .pagination-rectangular li:not(.disabled):hover a {
+    background: $pagination-rectangular-color;
+    color: $white;
+  }
+
+  .pagination-rectangular li a {
+    transition: background 0.15s ease-in, color 0.15s ease-in;
+  }
+
+}
+
