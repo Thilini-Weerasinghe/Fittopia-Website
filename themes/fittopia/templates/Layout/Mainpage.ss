@@ -1,9 +1,38 @@
 <% include subheader %>
 
 <% include NavBar%>
+<div class="block page-slider">
+    <div class="grid-container">
+        <div class="wrapper">
+            <div class="page-slider__slider js-slider">
+                    <div class="page-slide">
+                        <div class="page-slide-image "
+                             style="background-image: url('$resourceURL('themes/fittopia/static/images/herof.png')');">
+                            data-src="$resourceURL('themes/fittopia/static/images/herof.png')">
+                        </div>
+                    </div>
 
+                <div class="page-slide">
+                    <div class="page-slide-image "
+                         style="background-image: url('$resourceURL('themes/fittopia/static/images/herof.png')');">
+                        data-src="$resourceURL('themes/fittopia/static/images/herof.png')">
+                    </div>
+                </div>
+
+                <div class="page-slide">
+                    <div class="page-slide-image "
+                         style="background-image: url('$resourceURL('themes/fittopia/static/images/herof.png')');">
+                        data-src="$resourceURL('themes/fittopia/static/images/herof.png')">
+                    </div>
+                </div>
+            </div>
+            <div class="page-slider__dots circle-slick-dots js-slider-dots"></div>
+        </div>
+    </div>
+</div>
+</div>
 <div class="block image-card">
-    <%--<div class="grid-container">--%>
+    <div class="grid-container">
         <div class="grid-x align-middle ">
             <div class="grid-x align-middle align-center cell small-12 medium-12 large-6 image-card__text">
                 <div class="left-text">
@@ -18,7 +47,7 @@
                 </div>
             </div>
         </div>
-    <%--</div>--%>
+    </div>
 </div>
 
 <div class="block article">

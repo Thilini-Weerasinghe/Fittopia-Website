@@ -26,10 +26,10 @@
         outline: none;
     }
 
-    &.dragging {
-        cursor: pointer;
-        cursor: hand;
-    }
+    //&.dragging {
+    //    cursor: pointer;
+    //    cursor: hand;
+    //}
 }
 .slick-slider .slick-track,
 .slick-slider .slick-list {
@@ -66,9 +66,9 @@
     float: left;
     height: 100%;
     min-height: 1px;
-    [dir="rtl"] & {
-        float: right;
-    }
+    //[dir="rtl"] & {
+    //    float: right;
+    //}
     img {
         display: block;
     }
@@ -131,26 +131,27 @@
     }
 }
 
-.slick-next {
-    background: url("../images/arrow-right.png");
-    right: 0;
-}
-
-.slick-prev {
-    background: url("../images/arrow-left.png");
-    left: 0;
-}
+//.slick-next {
+//    background: url("../images/arrow-right.png");
+//    right: 0;
+//}
+//
+//.slick-prev {
+//    background: url("../images/arrow-left.png");
+//    left: 0;
+//}
 
 .circle-slick-dots {
     .slick-dots {
         list-style: none;
         margin: 0;
-        padding-top: 40px;
         display: flex;
         justify-content: center;
 
         li {
             margin: 0 5px;
+            color: white;
+
         }
 
         button {
@@ -158,11 +159,11 @@
             width: 15px;
             height: 15px;
             display: inline-block;
-            border: 3px solid $black;
-            background: $black;
+            border: 3px solid $white;
+            background: $white;
             border-radius: 50%;
             overflow: hidden;
-            text-indent: -9999px;
+            //text-indent: -9999px;
 
             &:hover {
                 background: transparent;
@@ -171,12 +172,13 @@
 
         .slick-active {
             button {
-                background: transparent;
+                background: #3b39da;
+                border: 3px solid #3b39da;
             }
         }
 
         @include breakpoint(large) {
-            padding-top: 37px;
+            //padding-top: 37px;
         }
     }
 }

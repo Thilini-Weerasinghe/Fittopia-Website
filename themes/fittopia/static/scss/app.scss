@@ -73,6 +73,7 @@
 @import "components/shared/textbox";
 @import "components/shared/image-card";
 @import "components/shared/scroll";
+@import "components/shared/default";
 
 @import "components/header";
 @import "components/footer";
@@ -84,7 +85,8 @@
 @import "components/elements/front";
 @import "components/elements/hero";
 @import "components/elements/gallery";
-@import "components/elements/article";
+@import "components/elements/page-slider";
+
 
 @import "components/pages/LoginPage";
 @import "components/pages/mainPage";

@@ -1,0 +1,26 @@
+* {
+
+  &:focus {
+    outline: none;
+  }
+}
+
+a {
+  @include transition;
+}
+
+.fade-out {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 200ms, opacity 200ms linear;
+}
+
+.fade-in {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 200ms linear;
+}
+
+.zoom {
+  transform: scale(1.1);
+}

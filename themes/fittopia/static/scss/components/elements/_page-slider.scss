@@ -1,0 +1,41 @@
+.page-slider {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 50px;
+
+  .wrapper {
+    position: relative;
+  }
+
+  &__slider {
+
+    .page-slide {
+
+      position: relative;
+      z-index: 1;
+      overflow: hidden;
+      padding-top: 59.09%;
+
+      &-image {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index: 0;
+        @include bg-image;
+      }
+    }
+
+  }
+
+  &__dots {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    height: 25px;
+  }
+}
