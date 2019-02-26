@@ -112,3 +112,7 @@
         </div>
     </div>
 </div>
+
+<div class="arrow">
+    <button id="click" class="btn js-btn2"><img src="{$ThemeDir}/static/images/cms/logo1.png"></button>
+</div>

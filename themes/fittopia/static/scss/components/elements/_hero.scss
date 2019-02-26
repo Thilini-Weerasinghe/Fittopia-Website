@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  min-height: 600px;
+ // min-height: 600px;
   height: auto;
   overflow: hidden;
   flex-direction: column-reverse;
@@ -25,6 +25,7 @@
   &__left-content {
     background-color: #3bc9a1;
     min-height: 600px;
+    height: auto;
     padding: 0 30px;
 
     .content-left {
@@ -47,6 +48,7 @@
   &__right-content {
     background-color: $black;
     min-height: 600px;
+    height: auto;
     padding: 0 30px;
 
     .content-right {
@@ -56,7 +58,7 @@
 
         position: absolute;
         transform: rotate(-90deg);
-        
+
         h4 {
           color: #3bc9a1;
         }
@@ -73,12 +75,12 @@
     height: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
-
+    margin: 10px;
   }
   @include breakpoint(medium) {
 
     &__search {
-      width: 100%;
+      width: 95%;
     }
   }
   @include breakpoint(large) {
@@ -98,3 +100,4 @@
     }
   }
 }
+

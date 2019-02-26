@@ -58,6 +58,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "aos": "^2.3.4",
     "blazy": "^1.8.2",
     "bloodhound-js": "^1.2.2",
     "foundation-sites": "^6.4.4-rc1",

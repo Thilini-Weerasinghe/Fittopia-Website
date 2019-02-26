@@ -1,14 +1,3 @@
-<%--<div class="block hero" xmlns="http://www.w3.org/1999/html">--%>
-<%--<div class="grid-x">--%>
-<%--<div class="cell large-12 medium-12">--%>
-<%--<div class="hero__slider js-slider">--%>
-
-<%--<div class="hero__slider__arrows js-slider-arrow"></div>--%>
-<%--</div>--%>
-
-<%--</div>--%>
-<%--</div>--%>
-
 <div class=" block hero">
     <div class="grid-x hero__content">
         <div class="grid-x align-middle align-center cell small-12 medium-12 large-6 hero__left-content">
@@ -60,9 +49,12 @@
             </div>
         </div>
     </div>
+    <div class="scroll">
+        <button id="click" class="btn js-btn vert-move"><i class="fas fa-chevron-circle-down"></i></button>
+    </div>
 </div>
 
-<div class="block gallery">
+<div class="block gallery" id="galery">
     <div class="grid-container">
         <div class="grid-x align-middle align-center">
             <div class="cell small-12 medium-12 large-12 ">
@@ -278,4 +270,3 @@
         </div>
     </div>
 </div>
-

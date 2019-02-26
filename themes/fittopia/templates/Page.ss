@@ -30,5 +30,8 @@
         <script src="$resourceURL('themes/fittopia/static/dist/foundation.min.js')"></script>
         <script src="$resourceURL('themes/fittopia/static/js/thirdparty/typeahead.bundle.js')"></script>
         <script src="$resourceURL('themes/fittopia/static/dist/common.min.js')"></script>
+        <link rel="stylesheet" href="bower_components/aos/dist/aos.css">
+        <script src="bower_components/aos/dist/aos.js"></script>
+        <link rel="stylesheet" href="font-awesome-animation.min.css">
     </body>
 </html>
