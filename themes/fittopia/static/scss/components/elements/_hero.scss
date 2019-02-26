@@ -4,7 +4,6 @@
   height: auto;
   overflow: hidden;
   flex-direction: column-reverse;
-
   &__image {
     position: absolute;
     right: 0;
@@ -51,6 +50,10 @@
     height: auto;
     padding: 0 30px;
 
+    h3 {
+      padding-left: 45px;
+    }
+
     .content-right {
       position: relative;
 
@@ -62,11 +65,13 @@
         h4 {
           color: #3bc9a1;
         }
+
       }
     }
 
     .hollow {
       width: 170px;
+      margin-left: 45px;
     }
   }
 
@@ -81,6 +86,18 @@
 
     &__search {
       width: 95%;
+    }
+
+    &__right-content {
+
+      h3 {
+        padding-left: 70px;
+      }
+
+      .hollow {
+
+          margin-left: 70px;
+      }
     }
   }
   @include breakpoint(large) {
