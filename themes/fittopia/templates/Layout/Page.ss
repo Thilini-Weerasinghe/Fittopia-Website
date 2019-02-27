@@ -83,7 +83,7 @@
     </div>
 </div>
 
-<div class="block gallery" id="galery">
+<div class="block gallery" >
     <div class="grid-container">
         <div class="grid-x align-middle align-center">
             <div class="cell small-12 medium-12 large-12 ">

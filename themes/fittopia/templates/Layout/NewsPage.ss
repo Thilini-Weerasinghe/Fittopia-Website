@@ -3,6 +3,7 @@
 <% include NavBar%>
 <div class="news block">
     <div class="grid-container">
+        <div class="wrapper">
         <div class="button category"> Category Here</div>
         <h1> 5 fitness trackers you need in your life now. </h1>
         <p> Get them on your wrists stat!</p>
@@ -50,6 +51,7 @@
             Curabitur sodales accumsan consectetur. Morbi facilisis eu lorem id pulvinar.
             Duis finibus sit amet lorem quis suscipit. <a href="#"> <u>Suspendisse sagittis iaculis sem. </u></a>
         </p>
+        </div>
     </div>
 </div>
 
@@ -111,8 +113,4 @@
             </div>
         </div>
     </div>
-</div>
-
-<div class="arrow">
-    <button id="click" class="btn js-btn2"><img src="{$ThemeDir}/static/images/cms/logo1.png"></button>
 </div>

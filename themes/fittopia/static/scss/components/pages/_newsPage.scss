@@ -1,6 +1,10 @@
 .news {
 margin-top: 50px;
 
+  .wrapper {
+   max-width:900px;
+    width: 100%;
+  }
   .category {
     background-color: #3bc9a1;
     color: $white;
@@ -27,54 +31,18 @@ margin-top: 50px;
   }
 
   p{
-    font-size: 18px;
+    font-size: 15px;
   }
 
   @include breakpoint(large) {
     .picture {
       .image {
-        width: 70%;
+        width: 100%;
       }
     }
-  }
-}
 
-.arrow{
- background-color: #0b5b0d;
-  height: 250px;
-  text-align: center;
-
-  img{
-    max-width: 50px;
-    cursor: pointer;
-    margin:20px;
-    //margin:120px;
-
-    &:hover {
-
-    }
-  }
-
-  img.vert-move {
-    -webkit-animation: mover 1s infinite  alternate;
-    animation: mover 1s infinite  alternate;
-  }
-  img.vert-move {
-    -webkit-animation: mover 1s infinite  alternate;
-    animation: mover 1s infinite  alternate;
-  }
-  @-webkit-keyframes mover {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-20px); }
-  }
-  @keyframes mover {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-20px); }
-  }
-
-  @include breakpoint(large){
-    img{
-      max-width: 100px;
+    p{
+      font-size: 18px;
     }
   }
 }
