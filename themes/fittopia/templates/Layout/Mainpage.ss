@@ -30,7 +30,7 @@
         </div>
     </div>
 </div>
-</div>
+<%--</div>--%>
 <div class="block image-card">
     <div class="grid-container">
         <div class="grid-x align-middle ">
