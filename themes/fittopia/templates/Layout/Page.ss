@@ -83,62 +83,6 @@
     </div>
 </div>
 
-<%--<div class=" block hero">--%>
-<%--<div class="grid-x hero__content">--%>
-<%--<div class="grid-x align-middle align-center cell small-12 medium-12 large-6 hero__left-content">--%>
-<%--<div class="content-left row">--%>
-<%--<div class="columns small-12 medium-12 large-12 ">--%>
-<%--<h1> Find the best health and fitness near you.</h1>--%>
-<%--</div>--%>
-<%--<div class="columns small-12 medium-12 large-12 ">--%>
-<%--<h4> Search below to see what’s near you.</h4>--%>
-<%--</div>--%>
-<%--<div class="columns small-12 medium-6 large-6">--%>
-<%--<input type="text" class="textbox box1" placeholder="Alexandria, NSW | ">--%>
-<%--</div>--%>
-<%--<div class="columns small-12 medium-6 large-6">--%>
-<%--<div class="dropdown">--%>
-<%--<select>--%>
-<%--<option value="" selected disabled hidden>Category</option>--%>
-<%--<option value="saab">abc</option>--%>
-<%--<option value="mercedes">xyz</option>--%>
-<%--<option value="audi">lmn</option>--%>
-<%--</select>--%>
-<%--</div>--%>
-<%--</div>--%>
-<%--<div class="columns small-12 medium-8 large-8">--%>
-<%--<input type="text" class="textbox box2 " placeholder="Type search term here... "> <i--%>
-<%--class="fas fa-search"></i> </input>--%>
-<%--</div>--%>
-<%--<div class="columns small-12 medium-4 large-4">--%>
-<%--<a href="#" class="button hero__search">search <i class="fas fa-long-arrow-alt-right"></i></a>--%>
-<%--</div>--%>
-<%--</div>--%>
-<%--</div>--%>
-<%--<div class="grid-x align-middle align-center cell small-12 medium-12 large-6 hero__right-content ">--%>
-<%--<div class="grid-x align-middle align-center ">--%>
-<%--<div class="cell small-12  medium-10 medium-offset-1 large-8 large-offset-2">--%>
-<%--<div class="hero__image lazy"--%>
-<%--style="background-image: url('$resourceURL('themes/fittopia/static/images/herof.png')');"--%>
-<%--data-src="$resourceURL('themes/fittopia/static/images/herof.png')">--%>
-<%--</div>--%>
-<%--</div>--%>
-<%--<div class="grid-x  content-right">--%>
-<%--<div class="verticle-text">--%>
-<%--<h4> Trending. </h4>--%>
-<%--</div>--%>
-<%--<h3> Trending piece of content or paid advertising spot. </h3>--%>
-<%--<a href="#" class="hollow button header__login"> Learn More <i--%>
-<%--class="fas fa-long-arrow-alt-right"></i></a>--%>
-<%--</div>--%>
-<%--</div>--%>
-<%--</div>--%>
-<%--</div>--%>
-<%--<div class="scroll">--%>
-<%--<button id="click" class="btn js-btn vert-move"><i class="fas fa-chevron-circle-down"></i></button>--%>
-<%--</div>--%>
-<%--</div>--%>
-
 <div class="block gallery" id="galery">
     <div class="grid-container">
         <div class="grid-x align-middle align-center">
