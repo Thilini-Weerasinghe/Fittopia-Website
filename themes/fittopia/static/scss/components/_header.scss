@@ -101,12 +101,15 @@
     .hollow {
       border-color: $black;
     }
+
+    .line {
+      background: $black;
+    }
+
+    hr {
+      margin-bottom: 0px;
+    }
+  }
   }
 
-  .line{
-    background: $black;
-  }
-  hr{
-    margin-bottom: 0px;
-  }
-}
+

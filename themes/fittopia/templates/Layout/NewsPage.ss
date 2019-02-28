@@ -4,7 +4,12 @@
 <div class="news block">
     <div class="grid-container">
         <div class="wrapper">
+            <div class="grid-x">
         <div class="button category"> Category Here</div>
+            <div class="date">
+                <p><span id="datetime"></span></p>
+            </div>
+            </div>
         <h1> 5 fitness trackers you need in your life now. </h1>
         <p> Get them on your wrists stat!</p>
         <div class="picture">

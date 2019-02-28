@@ -112,12 +112,12 @@
        display: none;
      }
    }
-   //&__dots {
-   //  position: absolute;
-   //  bottom: 0;
-   //  width: 50%;
-   //  height: 34px;
-   //}
+   &__dots {
+     position: absolute;
+     bottom: 0;
+     width: 50%;
+     height: 34px;
+   }
 
    @include breakpoint(medium) {
      &__search {

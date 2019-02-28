@@ -4,12 +4,14 @@ margin-top: 50px;
   .wrapper {
    max-width:900px;
     width: 100%;
+    padding:0 30px;
   }
   .category {
     background-color: #3bc9a1;
     color: $white;
     font-family: Georgia;
     margin-bottom: 35px;
+    margin-right:20px;
   }
 
   .picture {

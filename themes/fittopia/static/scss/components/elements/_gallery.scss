@@ -1,6 +1,6 @@
 .gallery {
 
-  padding-top: 68px;
+  padding-top: 0;
   text-align: center;
 
   img {
@@ -61,7 +61,7 @@
   }
 
   @include breakpoint(medium) {
-
+    padding-top: 68px;
     text-align: left;
     p {
       margin-top: 8px;
