@@ -1,44 +1,44 @@
 <% include subheader %>
-
 <% include NavBar%>
+
 <div class="page-slider block">
-    <div class="grid-container">
-        <div class="page-slider__slider js-slider">
-            <div class="page-slide">
-                <div class="cell small-12 medium-12 large-6">
-                    <div class="page-slide-content">
-                        <div class="left-text">
-                            <h2> 5 fitness trackers you need in your life now.</h2>
-                            <p> Get them on your wrists stat! </p>
-                            <a href="#" class="hollow button read-more"> Read more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="cell small-12 medium-12 large-6">
-                    <div class="page-slide-image "
-                         style="background-image: url('$resourceURL('themes/fittopia/static/images/subhero.jpg')');">
+    <div class="page-slider__slider js-slider">
+        <div class="grid-x page-slide">
+            <div class="cell small-12 medium-12 large-6">
+                <div class="page-slide-content">
+                    <div class="left-text">
+                        <h2> 5 fitness trackers you need in your life now.</h2>
+                        <p> Get them on your wrists stat! </p>
+                        <a href="#" class="hollow button read-more"> Read more</a>
                     </div>
                 </div>
             </div>
-            <div class="page-slide">
-                <div class="cell small-12 medium-12 large-6">
-                    <div class="page-slide-content">
-                        <div class="left-text">
-                            <h2> 5 fitness trackers you need in your life now.</h2>
-                            <p> Get them on your wrists stat! </p>
-                            <a href="#" class="hollow button read-more"> Read more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="cell small-12 medium-12 large-6">
-                    <div class="page-slide-image "
-                         style="background-image: url('$resourceURL('themes/fittopia/static/images/subhero.jpg')');">
-                    </div>
+            <div class="cell small-12 medium-12 large-6">
+                <div class="page-slide-image "
+                     style="background-image: url('$resourceURL('themes/fittopia/static/images/subhero.jpg')');">
                 </div>
             </div>
         </div>
-        <div class="page-slider__dots circle-slick-dots js-slider-dots"></div>
+        <div class="grid-x page-slide">
+            <div class="cell small-12 medium-12 large-6">
+                <div class="page-slide-content">
+                    <div class="left-text">
+                        <div class="cell small-12 medium-10 medium-offset-1 large-10 large-offset-1">
+                            <h2> 5 fitness trackers you need in your life now.</h2>
+                            <p> Get them on your wrists stat! </p>
+                            <a href="#" class="hollow button read-more"> Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cell small-12 medium-12 large-6">
+                <div class="page-slide-image "
+                     style="background-image: url('$resourceURL('themes/fittopia/static/images/subhero.jpg')');">
+                </div>
+            </div>
+        </div>
     </div>
+    <div class="page-slider__dots circle-slick-dots js-slider-dots"></div>
 </div>
 
 <div class="block article">
@@ -100,7 +100,6 @@
         </div>
     </div>
 </div>
-
 
 <div class="block image-card">
     <div class="grid-container">

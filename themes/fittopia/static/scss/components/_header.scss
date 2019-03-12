@@ -13,7 +13,8 @@
   }
 
   &__logo {
-    float: left
+    float: left;
+    width:120px;
   }
 
   &.menu {
@@ -47,7 +48,7 @@
     display: block;
     background: $white;
     height: 3px;
-    width: 100%;
+    width: 70%;
     border-radius: 2px;
     position: absolute;
     left: 0;
@@ -61,10 +62,15 @@
   .line-3 {
     top: 14px;
   }
+@include breakpoint(medium) {
 
+  &__logo {
+    width:175px;
+  }
+}
   @include breakpoint(large) {
 
-   &.hamburger {
+    &.hamburger {
       display: none;
     }
 
@@ -81,7 +87,6 @@
   }
 
   &.subheader {
-
     position: relative;
     margin-bottom: 0px;
     padding-bottom: 0px;
@@ -93,7 +98,7 @@
     }
 
     a {
-      color:$black;
+      color: $black;
       font-weight: bold;
       font-size: 16px;
     }
@@ -110,6 +115,6 @@
       margin-bottom: 0px;
     }
   }
-  }
+}
 
 

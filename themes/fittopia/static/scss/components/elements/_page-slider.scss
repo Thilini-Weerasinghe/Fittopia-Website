@@ -2,33 +2,39 @@
   position: relative;
   overflow: hidden;
   margin-bottom: 50px;
+  height: auto;
 
   .wrapper {
     position: relative;
   }
 
   &__slider {
-
     .page-slide {
       display: inline-flex !important;
       position: relative;
       z-index: 1;
       overflow: hidden;
-     // padding-top: 59.09%;
+      flex-direction: column-reverse;
 
       &-content {
         display: inline-flex !important;
         background-color: #3bc9a1;
-        width:100%;
-        min-height:400px;
+        width: 100%;
+        min-height: 512px;
         position: relative;
         z-index: 1;
 
         .left-text {
-          padding:30px;
+          padding: 30px;
+          min-height: 512px;
+          height: auto;
+
+          h2 {
+            font-size: 45px;
+          }
 
           p {
-            color:$white;
+            color: $white;
             font-size: 20px;
           }
         }
@@ -39,8 +45,8 @@
         left: 0;
         top: 0;
         width: 100%;
-        min-height:400px;
-        height: 100%;
+        min-height: 512px;
+        height: auto;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -56,5 +62,18 @@
     bottom: 30px;
     width: 100%;
     height: 25px;
+  }
+
+  @include breakpoint(large) {
+
+    h2 {
+      font-size: 45px;
+    }
+
+    &__slider {
+      .page-slide {
+        flex-direction: row;
+      }
+    }
   }
 }

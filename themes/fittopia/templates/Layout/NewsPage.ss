@@ -10,8 +10,11 @@
                 <p><span id="datetime"></span></p>
             </div>
             </div>
-        <h1> 5 fitness trackers you need in your life now. </h1>
-        <p> Get them on your wrists stat!</p>
+            <div class="news-head">
+                <h1> 5 fitness trackers you need in your life now. </h1>
+                <p> Get them on your wrists stat!</p>
+            </div>
+
         <div class="picture">
             <div class="image lazy b-loaded"
                  style="background-image: url('$resourceURL('themes/fittopia/static/images/subhero.jpg')');">

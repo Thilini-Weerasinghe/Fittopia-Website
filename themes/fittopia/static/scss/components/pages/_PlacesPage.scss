@@ -3,6 +3,26 @@
   min-height:400px;
   height: auto;
   padding:20px 0;
+
+  p {
+    color:$white;
+  }
+
+  .search-btn {
+    width:98%;
+    margin:10px 0;
+  }
+  .wrapper {
+    width:95%;
+
+  }
+
+  @include breakpoint(large) {
+    .wrapper {
+      width: 900px;
+      margin:0 135px;
+    }
+  }
 }
 
 .pagination {
@@ -42,4 +62,5 @@
   .pagination-rectangular li a {
     transition: background 0.15s ease-in, color 0.15s ease-in;
   }
+
 }
