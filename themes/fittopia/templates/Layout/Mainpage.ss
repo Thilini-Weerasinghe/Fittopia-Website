@@ -101,9 +101,9 @@
     </div>
 </div>
 
-<div class="block image-card">
+<div class="block image-card image-card__left-image">
     <div class="grid-container">
-        <div class="grid-x align-middle ">
+        <div class="grid-x align-middle alignment">
             <div class="grid-x align-middle align-center cell small-12 medium-12 large-6 image-card__text">
                 <div class="left-text">
                     <h2> Another featured article goes here (no slider)</h2>
@@ -157,19 +157,19 @@
     </div>
 </div>
 
-<div class="block image-card">
+<div class="block image-card ">
     <div class="grid-container">
-        <div class="grid-x align-middle ">
-            <div class="cell small-12 medium-12 large-6 image-card__image">
-                <div class="image lazy b-loaded"
-                     style="background-image: url('$resourceURL('themes/fittopia/static/images/bg1.png')');">
-                </div>
-            </div>
+        <div class="grid-x align-middle alignment">
             <div class="grid-x align-middle align-center cell small-12 medium-12 large-6 image-card__text">
                 <div class="left-text">
                     <h2> Another featured article goes here (no slider)</h2>
                     <p> Get them on your wrists stat! </p>
                     <a href="#" class="hollow button read-more"> Read more</a>
+                </div>
+            </div>
+            <div class="cell small-12 medium-12 large-6 image-card__image">
+                <div class="image lazy b-loaded"
+                     style="background-image: url('$resourceURL('themes/fittopia/static/images/bg3.png')');">
                 </div>
             </div>
         </div>

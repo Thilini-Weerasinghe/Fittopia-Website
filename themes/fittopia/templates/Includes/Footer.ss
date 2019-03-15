@@ -30,10 +30,10 @@
                 <h4> Wellness , meet inbox </h4>
                 <p> Sign up to our newsletter to join us on the path to wellness </p>
                 <div class="grid-x footer__subscribe-bar">
-                    <div class="cell small-12 medium-7 large-9 ">
+                    <div class="cell small-12 medium-7 large-8 ">
                         <input type="text" class="textbox email  " placeholder="Enter email address..">
                     </div>
-                    <div class="cell small-12 medium-5 large-3 ">
+                    <div class="cell small-12 medium-5 large-4 ">
                         <a href="#" class="button subscribe-button"> Subscribe <i class="fas fa-long-arrow-alt-right"></i></a>
                     </div>
                 </div>
